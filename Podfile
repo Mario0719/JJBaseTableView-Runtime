@@ -11,12 +11,8 @@ targetsArray.each do |t|
 
         pod 'MJRefresh'
         
-        pod 'YYKit'
-        
         pod 'Masonry'
         
-        pod 'ReactiveCocoa', :git => 'https://github.com/zhao0/ReactiveCocoa.git', :tag => '2.5.2'
-
         end
 
 end
