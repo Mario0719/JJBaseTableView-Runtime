@@ -61,11 +61,13 @@
     
     self.tableFooterView = [UIView new];
     
-    self.enableRefresh = NO;
-    self.enableLoadMore = NO;
-    self.autoNetworkNotice = NO;
+    self.enableRefresh = NO;       // 默认关闭下拉刷新
+    self.enableLoadMore = NO;      // 默认关闭上拉加载
+    self.autoNetworkNotice = NO;   // 默认关闭网络提示
    
-    [self makeDefaultNetworkStatusView];
+    [self makeDefaultNetworkStatusView]; // 设置断网提示（类似微信首页断网提示）
+    
+    // 通过按钮控制断网、恢复网络 动作。 开发者自定加入网络监听
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(networkStatusChange:) name:@"kNetworkChange" object:nil];
 }
 // 监听网络变化

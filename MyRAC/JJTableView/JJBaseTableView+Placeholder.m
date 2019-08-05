@@ -23,10 +23,10 @@
 // 新建reloadData 方法
 - (void)jj_reloadData{
     // TODO:
-    [self jj_checkDataSources];
-    [self jj_reloadData];
-    [self endingRefresh];
-    [self endingLoadMore];
+    [self jj_checkDataSources];  // 检查数据源
+    [self jj_reloadData];   // 刷新TableView
+    [self endingRefresh];   // 停止刷新动画
+    [self endingLoadMore];  // 停止加载动画
 }
 // 新建reloadSection
 - (void)jj_reloadSection:(NSUInteger)section withRowAnimation:(UITableViewRowAnimation)animation{

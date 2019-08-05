@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "39CFC7C04C99A2D50C90D505105B44ED"
+               BlueprintIdentifier = "1807D96A0287E3C2E431EC394D934085"
                BuildableName = "Pods-MyRAC.framework"
                BlueprintName = "Pods-MyRAC"
                ReferencedContainer = "container:Pods.xcodeproj">
