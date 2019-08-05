@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="2Tm-9N-LhP">
+                                <rect key="frame" x="0.0" y="812" width="414" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ptQ-eF-J3q">
+                                        <rect key="frame" x="0.0" y="0.0" width="83" height="50"/>
+                                        <state key="normal" title="添加数据"/>
+                                        <connections>
+                                            <action selector="addDataSource:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cjA-rN-HlL"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fdj-T6-Eit">
+                                        <rect key="frame" x="83" y="0.0" width="82.5" height="50"/>
+                                        <state key="normal" title="清空数据"/>
+                                        <connections>
+                                            <action selector="cleanDataSource:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AAn-Ag-sDa"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1uj-Ic-T4B">
+                                        <rect key="frame" x="165.5" y="0.0" width="83" height="50"/>
+                                        <state key="normal" title="断开网络"/>
+                                        <connections>
+                                            <action selector="disconnectNetwork:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BCF-Uq-AY6"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g4J-0w-qOf">
+                                        <rect key="frame" x="248.5" y="0.0" width="82.5" height="50"/>
+                                        <state key="normal" title="恢复网络"/>
+                                        <connections>
+                                            <action selector="connectNetwork:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RKw-UF-IRy"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xUs-sQ-72Q">
+                                        <rect key="frame" x="331" y="0.0" width="83" height="50"/>
+                                        <state key="normal" title="退出登录"/>
+                                        <connections>
+                                            <action selector="logout:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FUP-3n-EAg"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="v6r-aP-5Oy"/>
+                                </constraints>
+                            </stackView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="1ls-eq-DAR" customClass="JJBaseTableView">
+                                <rect key="frame" x="0.0" y="44" width="414" height="760"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="1ls-eq-DAR" secondAttribute="trailing" id="5zc-pP-g6k"/>
+                            <constraint firstAttribute="bottom" secondItem="2Tm-9N-LhP" secondAttribute="bottom" constant="34" id="AKh-bq-Hrn"/>
+                            <constraint firstItem="1ls-eq-DAR" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="44" id="LTc-o6-0TV"/>
+                            <constraint firstItem="2Tm-9N-LhP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="dyc-HP-Q6o"/>
+                            <constraint firstItem="1ls-eq-DAR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="orh-51-IqV"/>
+                            <constraint firstAttribute="trailing" secondItem="2Tm-9N-LhP" secondAttribute="trailing" id="otP-48-nfF"/>
+                            <constraint firstItem="2Tm-9N-LhP" firstAttribute="top" secondItem="1ls-eq-DAR" secondAttribute="bottom" constant="8" id="wVk-dj-VvV"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="1ls-eq-DAR" id="HQ5-Xt-EAD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="100.44642857142857"/>
+        </scene>
+    </scenes>
+</document>

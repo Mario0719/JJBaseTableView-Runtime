@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D7E812D90963CB31380093C /* Pods_MyRAC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E2D370E45C0EF114B9BDCB8 /* Pods_MyRAC.framework */; };
+		AC2C4D9122F3CF9400941B7A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2C4D9022F3CF9400941B7A /* AppDelegate.m */; };
+		AC2C4D9922F3CF9600941B7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC2C4D9822F3CF9600941B7A /* Assets.xcassets */; };
+		AC2C4D9C22F3CF9600941B7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC2C4D9A22F3CF9600941B7A /* LaunchScreen.storyboard */; };
+		AC2C4D9F22F3CF9600941B7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2C4D9E22F3CF9600941B7A /* main.m */; };
+		AC2C4DA922F4216500941B7A /* JJBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2C4DA822F4216500941B7A /* JJBaseTableView.m */; };
+		AC2C4DAC22F422D500941B7A /* JJBaseTableView+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2C4DAB22F422D500941B7A /* JJBaseTableView+Placeholder.m */; };
+		AC2C4DAF22F4232500941B7A /* JJCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2C4DAE22F4232500941B7A /* JJCustomView.m */; };
+		AC2C4DB322F4262A00941B7A /* NSObject+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2C4DB222F4262A00941B7A /* NSObject+Swizzling.m */; };
+		AC2C4DB622F4412200941B7A /* JJBaseTableView+Network.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2C4DB522F4412200941B7A /* JJBaseTableView+Network.m */; };
+		AC2C4DBA22F7C55500941B7A /* JJBaseCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2C4DB922F7C55500941B7A /* JJBaseCollectionView.m */; };
+		AC2C4DC322F7C62500941B7A /* TabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2C4DC222F7C62500941B7A /* TabbarController.m */; };
+		AC2C4DC622F7C63A00941B7A /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2C4DC522F7C63A00941B7A /* NavigationController.m */; };
+		AC2C4DC922F7C69D00941B7A /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2C4DC822F7C69D00941B7A /* TableViewController.m */; };
+		AC2C4DCC22F7C6AA00941B7A /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2C4DCB22F7C6AA00941B7A /* CollectionViewController.m */; };
+		AC2C4DCE22F7C77600941B7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC2C4DCD22F7C77600941B7A /* Main.storyboard */; };
+		AC2C4DD122F7CB5000941B7A /* JJBaseCollectionView+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2C4DD022F7CB5000941B7A /* JJBaseCollectionView+Placeholder.m */; };
+		AC2C4DD422F7CB5A00941B7A /* JJBaseCollectionView+Network.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2C4DD322F7CB5A00941B7A /* JJBaseCollectionView+Network.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E2D370E45C0EF114B9BDCB8 /* Pods_MyRAC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyRAC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A64565E4520E417019ACF4F /* Pods-MyRAC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyRAC.debug.xcconfig"; path = "Target Support Files/Pods-MyRAC/Pods-MyRAC.debug.xcconfig"; sourceTree = "<group>"; };
+		AC2C4D8C22F3CF9400941B7A /* MyRAC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyRAC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC2C4D8F22F3CF9400941B7A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AC2C4D9022F3CF9400941B7A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AC2C4D9822F3CF9600941B7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC2C4D9B22F3CF9600941B7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC2C4D9D22F3CF9600941B7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC2C4D9E22F3CF9600941B7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC2C4DA522F3D1E900941B7A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		AC2C4DA722F4216500941B7A /* JJBaseTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJBaseTableView.h; sourceTree = "<group>"; };
+		AC2C4DA822F4216500941B7A /* JJBaseTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJBaseTableView.m; sourceTree = "<group>"; };
+		AC2C4DAA22F422D500941B7A /* JJBaseTableView+Placeholder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JJBaseTableView+Placeholder.h"; sourceTree = "<group>"; };
+		AC2C4DAB22F422D500941B7A /* JJBaseTableView+Placeholder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "JJBaseTableView+Placeholder.m"; sourceTree = "<group>"; };
+		AC2C4DAD22F4232400941B7A /* JJCustomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJCustomView.h; sourceTree = "<group>"; };
+		AC2C4DAE22F4232500941B7A /* JJCustomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJCustomView.m; sourceTree = "<group>"; };
+		AC2C4DB122F4262A00941B7A /* NSObject+Swizzling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Swizzling.h"; sourceTree = "<group>"; };
+		AC2C4DB222F4262A00941B7A /* NSObject+Swizzling.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Swizzling.m"; sourceTree = "<group>"; };
+		AC2C4DB422F4412200941B7A /* JJBaseTableView+Network.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JJBaseTableView+Network.h"; sourceTree = "<group>"; };
+		AC2C4DB522F4412200941B7A /* JJBaseTableView+Network.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "JJBaseTableView+Network.m"; sourceTree = "<group>"; };
+		AC2C4DB822F7C55500941B7A /* JJBaseCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJBaseCollectionView.h; sourceTree = "<group>"; };
+		AC2C4DB922F7C55500941B7A /* JJBaseCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJBaseCollectionView.m; sourceTree = "<group>"; };
+		AC2C4DC122F7C62500941B7A /* TabbarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabbarController.h; sourceTree = "<group>"; };
+		AC2C4DC222F7C62500941B7A /* TabbarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabbarController.m; sourceTree = "<group>"; };
+		AC2C4DC422F7C63A00941B7A /* NavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
+		AC2C4DC522F7C63A00941B7A /* NavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
+		AC2C4DC722F7C69D00941B7A /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		AC2C4DC822F7C69D00941B7A /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		AC2C4DCA22F7C6AA00941B7A /* CollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		AC2C4DCB22F7C6AA00941B7A /* CollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		AC2C4DCD22F7C77600941B7A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		AC2C4DCF22F7CB5000941B7A /* JJBaseCollectionView+Placeholder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JJBaseCollectionView+Placeholder.h"; sourceTree = "<group>"; };
+		AC2C4DD022F7CB5000941B7A /* JJBaseCollectionView+Placeholder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "JJBaseCollectionView+Placeholder.m"; sourceTree = "<group>"; };
+		AC2C4DD222F7CB5A00941B7A /* JJBaseCollectionView+Network.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JJBaseCollectionView+Network.h"; sourceTree = "<group>"; };
+		AC2C4DD322F7CB5A00941B7A /* JJBaseCollectionView+Network.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "JJBaseCollectionView+Network.m"; sourceTree = "<group>"; };
+		F1FA93811CF4A57121418EC3 /* Pods-MyRAC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyRAC.release.xcconfig"; path = "Target Support Files/Pods-MyRAC/Pods-MyRAC.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC2C4D8922F3CF9400941B7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D7E812D90963CB31380093C /* Pods_MyRAC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10DFD9B89434E82617870AE6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E2D370E45C0EF114B9BDCB8 /* Pods_MyRAC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E0E624314ED9DB9947AED66 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A64565E4520E417019ACF4F /* Pods-MyRAC.debug.xcconfig */,
+				F1FA93811CF4A57121418EC3 /* Pods-MyRAC.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AC2C4D8322F3CF9400941B7A = {
+			isa = PBXGroup;
+			children = (
+				AC2C4D8E22F3CF9400941B7A /* MyRAC */,
+				AC2C4D8D22F3CF9400941B7A /* Products */,
+				6E0E624314ED9DB9947AED66 /* Pods */,
+				10DFD9B89434E82617870AE6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AC2C4D8D22F3CF9400941B7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC2C4D8C22F3CF9400941B7A /* MyRAC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC2C4D8E22F3CF9400941B7A /* MyRAC */ = {
+			isa = PBXGroup;
+			children = (
+				AC2C4DB022F4260000941B7A /* runtime */,
+				AC2C4DB722F7C51F00941B7A /* JJCollectionView */,
+				AC2C4DA622F4211D00941B7A /* JJTableView */,
+				AC2C4D8F22F3CF9400941B7A /* AppDelegate.h */,
+				AC2C4D9022F3CF9400941B7A /* AppDelegate.m */,
+				AC2C4DC122F7C62500941B7A /* TabbarController.h */,
+				AC2C4DC222F7C62500941B7A /* TabbarController.m */,
+				AC2C4DC422F7C63A00941B7A /* NavigationController.h */,
+				AC2C4DC522F7C63A00941B7A /* NavigationController.m */,
+				AC2C4DC722F7C69D00941B7A /* TableViewController.h */,
+				AC2C4DC822F7C69D00941B7A /* TableViewController.m */,
+				AC2C4DCA22F7C6AA00941B7A /* CollectionViewController.h */,
+				AC2C4DCB22F7C6AA00941B7A /* CollectionViewController.m */,
+				AC2C4D9822F3CF9600941B7A /* Assets.xcassets */,
+				AC2C4D9A22F3CF9600941B7A /* LaunchScreen.storyboard */,
+				AC2C4DCD22F7C77600941B7A /* Main.storyboard */,
+				AC2C4D9D22F3CF9600941B7A /* Info.plist */,
+				AC2C4D9E22F3CF9600941B7A /* main.m */,
+				AC2C4DA522F3D1E900941B7A /* PrefixHeader.pch */,
+			);
+			path = MyRAC;
+			sourceTree = "<group>";
+		};
+		AC2C4DA622F4211D00941B7A /* JJTableView */ = {
+			isa = PBXGroup;
+			children = (
+				AC2C4DA722F4216500941B7A /* JJBaseTableView.h */,
+				AC2C4DA822F4216500941B7A /* JJBaseTableView.m */,
+				AC2C4DAA22F422D500941B7A /* JJBaseTableView+Placeholder.h */,
+				AC2C4DAB22F422D500941B7A /* JJBaseTableView+Placeholder.m */,
+				AC2C4DB422F4412200941B7A /* JJBaseTableView+Network.h */,
+				AC2C4DB522F4412200941B7A /* JJBaseTableView+Network.m */,
+				AC2C4DAD22F4232400941B7A /* JJCustomView.h */,
+				AC2C4DAE22F4232500941B7A /* JJCustomView.m */,
+			);
+			path = JJTableView;
+			sourceTree = "<group>";
+		};
+		AC2C4DB022F4260000941B7A /* runtime */ = {
+			isa = PBXGroup;
+			children = (
+				AC2C4DB122F4262A00941B7A /* NSObject+Swizzling.h */,
+				AC2C4DB222F4262A00941B7A /* NSObject+Swizzling.m */,
+			);
+			path = runtime;
+			sourceTree = "<group>";
+		};
+		AC2C4DB722F7C51F00941B7A /* JJCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				AC2C4DB822F7C55500941B7A /* JJBaseCollectionView.h */,
+				AC2C4DB922F7C55500941B7A /* JJBaseCollectionView.m */,
+				AC2C4DCF22F7CB5000941B7A /* JJBaseCollectionView+Placeholder.h */,
+				AC2C4DD022F7CB5000941B7A /* JJBaseCollectionView+Placeholder.m */,
+				AC2C4DD222F7CB5A00941B7A /* JJBaseCollectionView+Network.h */,
+				AC2C4DD322F7CB5A00941B7A /* JJBaseCollectionView+Network.m */,
+			);
+			path = JJCollectionView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC2C4D8B22F3CF9400941B7A /* MyRAC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC2C4DA222F3CF9600941B7A /* Build configuration list for PBXNativeTarget "MyRAC" */;
+			buildPhases = (
+				365136D16F8270C1112E217F /* [CP] Check Pods Manifest.lock */,
+				AC2C4D8822F3CF9400941B7A /* Sources */,
+				AC2C4D8922F3CF9400941B7A /* Frameworks */,
+				AC2C4D8A22F3CF9400941B7A /* Resources */,
+				F324ED4072D32247E49C8091 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyRAC;
+			productName = MyRAC;
+			productReference = AC2C4D8C22F3CF9400941B7A /* MyRAC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC2C4D8422F3CF9400941B7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = MS;
+				TargetAttributes = {
+					AC2C4D8B22F3CF9400941B7A = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = AC2C4D8722F3CF9400941B7A /* Build configuration list for PBXProject "MyRAC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC2C4D8322F3CF9400941B7A;
+			productRefGroup = AC2C4D8D22F3CF9400941B7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC2C4D8B22F3CF9400941B7A /* MyRAC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC2C4D8A22F3CF9400941B7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC2C4DCE22F7C77600941B7A /* Main.storyboard in Resources */,
+				AC2C4D9C22F3CF9600941B7A /* LaunchScreen.storyboard in Resources */,
+				AC2C4D9922F3CF9600941B7A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		365136D16F8270C1112E217F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyRAC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F324ED4072D32247E49C8091 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyRAC/Pods-MyRAC-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyRAC/Pods-MyRAC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC2C4D8822F3CF9400941B7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC2C4DAF22F4232500941B7A /* JJCustomView.m in Sources */,
+				AC2C4DC622F7C63A00941B7A /* NavigationController.m in Sources */,
+				AC2C4DD422F7CB5A00941B7A /* JJBaseCollectionView+Network.m in Sources */,
+				AC2C4D9F22F3CF9600941B7A /* main.m in Sources */,
+				AC2C4DC322F7C62500941B7A /* TabbarController.m in Sources */,
+				AC2C4DB622F4412200941B7A /* JJBaseTableView+Network.m in Sources */,
+				AC2C4DC922F7C69D00941B7A /* TableViewController.m in Sources */,
+				AC2C4DCC22F7C6AA00941B7A /* CollectionViewController.m in Sources */,
+				AC2C4DB322F4262A00941B7A /* NSObject+Swizzling.m in Sources */,
+				AC2C4DD122F7CB5000941B7A /* JJBaseCollectionView+Placeholder.m in Sources */,
+				AC2C4DAC22F422D500941B7A /* JJBaseTableView+Placeholder.m in Sources */,
+				AC2C4DBA22F7C55500941B7A /* JJBaseCollectionView.m in Sources */,
+				AC2C4DA922F4216500941B7A /* JJBaseTableView.m in Sources */,
+				AC2C4D9122F3CF9400941B7A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AC2C4D9A22F3CF9600941B7A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC2C4D9B22F3CF9600941B7A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC2C4DA022F3CF9600941B7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AC2C4DA122F3CF9600941B7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC2C4DA322F3CF9600941B7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A64565E4520E417019ACF4F /* Pods-MyRAC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M9S79Q39F2;
+				GCC_PREFIX_HEADER = MyRAC/PrefixHeader.pch;
+				INFOPLIST_FILE = MyRAC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MS.MyRAC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC2C4DA422F3CF9600941B7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1FA93811CF4A57121418EC3 /* Pods-MyRAC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M9S79Q39F2;
+				GCC_PREFIX_HEADER = MyRAC/PrefixHeader.pch;
+				INFOPLIST_FILE = MyRAC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MS.MyRAC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC2C4D8722F3CF9400941B7A /* Build configuration list for PBXProject "MyRAC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC2C4DA022F3CF9600941B7A /* Debug */,
+				AC2C4DA122F3CF9600941B7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC2C4DA222F3CF9600941B7A /* Build configuration list for PBXNativeTarget "MyRAC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC2C4DA322F3CF9600941B7A /* Debug */,
+				AC2C4DA422F3CF9600941B7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC2C4D8422F3CF9400941B7A /* Project object */;
+}
